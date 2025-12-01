@@ -5,9 +5,9 @@ type FeatureProps = {
 
 export function FeatureCard({ title, text }: FeatureProps) {
   return (
-    <div className="rounded-2xl border border-slate-800 bg-slate-900/70 p-4">
-      <p className="text-xs font-semibold text-emerald-300">{title}</p>
-      <p className="mt-2 text-xs text-slate-200">{text}</p>
+    <div className = "rounded-2xl border border-slate-900 bg-slate-200/70 p-4">
+      <p className = "text-xs font-semibold text-green-700">{title}</p>
+      <p className = "mt-2 text-slate-800">{text}</p>
     </div>
   );
 }
